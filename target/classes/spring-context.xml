@@ -64,7 +64,7 @@
                 -->
                 <!-- 以Account结尾的方法，切入此方法时，采用对应事务实行-->
                 <tx:method
-                        name="*Account"
+                        name="*Staff"
                         rollback-for="Exception"
                         read-only="false"
                         propagation="REQUIRED"
